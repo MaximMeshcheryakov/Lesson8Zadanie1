@@ -1,0 +1,50 @@
+[
+    {
+        "actionName": "CreateTicket",
+        "steps": [
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: Search Flights Button",
+                "infFile": "t3.inf",
+                "time": 1617821353574
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Submit Data: reservations.pl",
+                "infFile": "t4.inf",
+                "time": 1617821353741
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Submit Data: reservations.pl_2",
+                "infFile": "t5.inf",
+                "time": 1617821353900
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Submit Data: reservations.pl_3",
+                "infFile": "t6.inf",
+                "time": 1617821354077
+            }
+        ],
+        "transactions": []
+    },
+    {
+        "actionName": "AllTicketsDel",
+        "steps": [
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: Itinerary Button",
+                "infFile": "t7.inf",
+                "time": 1617821363672
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Submit Data: itinerary.pl",
+                "infFile": "t8.inf",
+                "time": 1617821363810
+            }
+        ],
+        "transactions": []
+    }
+]
