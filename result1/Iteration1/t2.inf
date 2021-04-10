@@ -1,6 +1,6 @@
 [t2]
 FileName2=t1_2_mer_login.gif
-RawStepEndTime=1618010933373
+RawStepEndTime=1618044309781
 FileName4=t1_0_hp_logo.png
 RequestBodyFile=t2_RequestBody.txt
 RawStepName=InfluxDB
@@ -13,7 +13,7 @@ URL4=http://localhost:1080/webtours/images/hp_logo.png
 SnapshotXmlFile=snapshot_2.xml
 RequestHeaderFile=t2_RequestHeader.txt
 SaveSnapshotResources=1
-RawStepStartTime=1618010933359
+RawStepStartTime=1618044309734
 Total=4
 StepName=Custom Request: InfluxDB
 FileName1=t1.html

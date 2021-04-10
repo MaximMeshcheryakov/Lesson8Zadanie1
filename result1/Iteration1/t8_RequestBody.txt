@@ -1,1 +1,1 @@
-"business_metrics,name=04.Create_ticket_FindFlight,status=0 response_time=106"
+"business_metrics,name=04.Create_ticket_FindFlight,status=0 response_time=88"

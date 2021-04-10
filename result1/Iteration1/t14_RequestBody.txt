@@ -1,1 +1,1 @@
-"business_metrics,name=07.OpenPage_Itinerary_AllTicketDel,status=0 response_time=193"
+"business_metrics,name=07.OpenPage_Itinerary_AllTicketDel,status=0 response_time=586"

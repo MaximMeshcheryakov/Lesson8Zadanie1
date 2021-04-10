@@ -1,0 +1,2 @@
+AllTicketsDel.c(16): Notify: Transaction "http://localhost:1080/WebTours/images/cancelreservation.gif" will be skipped - could not calculate the transaction time (duration=0.0260, think_time=0.0000, wasted_time=0.4615).
+AllTicketsDel.c(16): Notify: Transaction "http://localhost:1080/WebTours/images/cancelallreservations.gif" will be skipped - could not calculate the transaction time (duration=0.0341, think_time=0.0000, wasted_time=0.4617).
