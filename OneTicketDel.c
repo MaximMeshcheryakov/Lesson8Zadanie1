@@ -1,5 +1,8 @@
 OneTicketDel()
 {
+	tName = "09.OpenPage_Itinerary_OneTicketDel";
+	lr_start_transaction(tName);
+	
 	web_reg_save_param_ex(
     	"ParamName=FlightID", 
     	"LB/IC=name=\"flightID\" value=\"",
@@ -18,7 +21,11 @@ OneTicketDel()
 		"Snapshot=t3.inf", 
 		"Mode=HTML", 
 		LAST);
-
+	
+	end_transaction(tName, status);
+	
+	tName = "10.Delete_One_Ticket";
+	lr_start_transaction(tName);
 
 	/* Del 1 Ticket */
 	
@@ -37,6 +44,8 @@ OneTicketDel()
 		"Name=removeFlights.x", "Value=69", ENDITEM,
 		"Name=removeFlights.y", "Value=8", ENDITEM,
 		LAST);
-
+	
+	end_transaction(tName, status);
+	
 	return 0;
 }

@@ -3,48 +3,128 @@
         "actionName": "CreateTicket",
         "steps": [
             {
-                "stepId": "STEP3",
-                "stepName": "Url: Search Flights Button",
-                "infFile": "t3.inf",
-                "time": 1617821353574
-            },
-            {
-                "stepId": "STEP4",
-                "stepName": "Submit Data: reservations.pl",
-                "infFile": "t4.inf",
-                "time": 1617821353741
-            },
-            {
                 "stepId": "STEP5",
-                "stepName": "Submit Data: reservations.pl_2",
+                "stepName": "Url: Search Flights Button",
                 "infFile": "t5.inf",
-                "time": 1617821353900
+                "time": 1618010933764
             },
             {
                 "stepId": "STEP6",
-                "stepName": "Submit Data: reservations.pl_3",
+                "stepName": "Custom Request: InfluxDB",
                 "infFile": "t6.inf",
-                "time": 1617821354077
+                "time": 1618010933816
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Submit Data: reservations.pl",
+                "infFile": "t7.inf",
+                "time": 1618010933946
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Custom Request: InfluxDB",
+                "infFile": "t8.inf",
+                "time": 1618010934005
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Submit Data: reservations.pl_2",
+                "infFile": "t9.inf",
+                "time": 1618010934105
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Custom Request: InfluxDB",
+                "infFile": "t10.inf",
+                "time": 1618010934179
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Submit Data: reservations.pl_3",
+                "infFile": "t11.inf",
+                "time": 1618010934290
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Custom Request: InfluxDB",
+                "infFile": "t12.inf",
+                "time": 1618010934338
             }
         ],
-        "transactions": []
+        "transactions": [
+            {
+                "transactionName": "03.OpenPage_ticket_FindFlight",
+                "rawStartTime": 1618010933610,
+                "rawEndTime": 1618010933771,
+                "thinkTime": 0.0,
+                "wastedTime": 0.009366750717163086
+            },
+            {
+                "transactionName": "04.Create_ticket_FindFlight",
+                "rawStartTime": 1618010933849,
+                "rawEndTime": 1618010933961,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005270481109619141
+            },
+            {
+                "transactionName": "05.Create_ticket_ChooseCost",
+                "rawStartTime": 1618010934024,
+                "rawEndTime": 1618010934118,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0044002532958984379
+            },
+            {
+                "transactionName": "06.Create_ticket_PaymentDetail",
+                "rawStartTime": 1618010934198,
+                "rawEndTime": 1618010934294,
+                "thinkTime": 0.0,
+                "wastedTime": 0.007311344146728516
+            }
+        ]
     },
     {
         "actionName": "AllTicketsDel",
         "steps": [
             {
-                "stepId": "STEP7",
+                "stepId": "STEP13",
                 "stepName": "Url: Itinerary Button",
-                "infFile": "t7.inf",
-                "time": 1617821363672
+                "infFile": "t13.inf",
+                "time": 1618010937225
             },
             {
-                "stepId": "STEP8",
+                "stepId": "STEP14",
+                "stepName": "Custom Request: InfluxDB",
+                "infFile": "t14.inf",
+                "time": 1618010937295
+            },
+            {
+                "stepId": "STEP15",
                 "stepName": "Submit Data: itinerary.pl",
-                "infFile": "t8.inf",
-                "time": 1617821363810
+                "infFile": "t15.inf",
+                "time": 1618010937397
+            },
+            {
+                "stepId": "STEP16",
+                "stepName": "Custom Request: InfluxDB",
+                "infFile": "t16.inf",
+                "time": 1618010937466
             }
         ],
-        "transactions": []
+        "transactions": [
+            {
+                "transactionName": "07.OpenPage_Itinerary_AllTicketDel",
+                "rawStartTime": 1618010937033,
+                "rawEndTime": 1618010937240,
+                "thinkTime": 0.0,
+                "wastedTime": 0.012102365493774414
+            },
+            {
+                "transactionName": "08.Delete_All_Tickets",
+                "rawStartTime": 1618010937317,
+                "rawEndTime": 1618010937410,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004574298858642578
+            }
+        ]
     }
 ]

@@ -3,12 +3,26 @@
         "actionName": "vuser_end",
         "steps": [
             {
-                "stepId": "STEP9",
+                "stepId": "STEP17",
                 "stepName": "Url: SignOff Button",
-                "infFile": "t9.inf",
-                "time": 1617821364023
+                "infFile": "t17.inf",
+                "time": 1618010937562
+            },
+            {
+                "stepId": "STEP18",
+                "stepName": "Custom Request: InfluxDB",
+                "infFile": "t18.inf",
+                "time": 1618010937588
             }
         ],
-        "transactions": []
+        "transactions": [
+            {
+                "transactionName": "11.Log_out",
+                "rawStartTime": 1618010937477,
+                "rawEndTime": 1618010937563,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005028724670410156
+            }
+        ]
     }
 ]

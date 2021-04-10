@@ -18,9 +18,14 @@
     <FileEntry Name="DepartureCity.dat" Filter="2" />
     <FileEntry Name="PrefSeat.dat" Filter="2" />
     <FileEntry Name="TypeSeat.dat" Filter="2" />
+    <FileEntry Name="ScriptVcsSettings.xml" Filter="2" />
     <FileEntry Name="combined_MLesson8_1.c" Filter="2" />
     <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name=".gitignore" Filter="1" />
     <FileEntry Name="148712238440.idx" Filter="1" />
+    <FileEntry Name="154309556440.idx" Filter="1" />
+    <FileEntry Name="232022591440.idx" Filter="1" />
+    <FileEntry Name="43425071440.idx" Filter="1" />
     <FileEntry Name="6395309440.idx" Filter="1" />
     <FileEntry Name="639530944_o3I.886.idx" Filter="1" />
     <FileEntry Name="639530944_Rp7.244.idx" Filter="1" />
@@ -49,6 +54,7 @@
     <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
     <FileEntry Name="TransactionsData.db" Filter="1" />
     <FileEntry Name="UserTasks.xml" Filter="1" />
+    <FileEntry Name=".git\" Filter="1" />
     <FileEntry Name="result1\" Filter="1" />
   </GeneralFiles>
 </VugenScriptMetadata>

@@ -1,5 +1,8 @@
 CreateTicket()
 {
+	tName = "03.OpenPage_ticket_FindFlight";
+	lr_start_transaction(tName);
+	
 	/* Flights */
 
 	web_url("Search Flights Button", 
@@ -11,6 +14,12 @@ CreateTicket()
 		"Snapshot=t3.inf", 
 		"Mode=HTML", 
 		LAST);
+	
+	end_transaction(tName, status);
+	
+	tName = "04.Create_ticket_FindFlight";
+	lr_start_transaction(tName);
+	
 
 	web_reg_save_param_ex(
 		"ParamName=OFlight",
@@ -20,7 +29,6 @@ CreateTicket()
     	"NotFound=Warning",
 			LAST);
 
-	
 	/* Continue 1 */
 	
 	web_submit_data("reservations.pl", 
@@ -47,6 +55,12 @@ CreateTicket()
 		"Name=findFlights.y", "Value=10", ENDITEM, 
 		LAST);
 
+	
+	end_transaction(tName, status);
+
+	tName = "05.Create_ticket_ChooseCost";
+	lr_start_transaction(tName);
+	
 	/* Continue 2 */
 
 
@@ -68,9 +82,14 @@ CreateTicket()
 		"Name=reserveFlights.y", "Value=6", ENDITEM, 
 		LAST);
 
+	end_transaction(tName, status);
+
+	tName = "06.Create_ticket_PaymentDetail";
+	lr_start_transaction(tName);
+	
+	
 	/* Continue 3 */
-
-
+	
 	web_submit_data("reservations.pl_3", 
 		"Action={Host}/cgi-bin/reservations.pl", 
 		"Method=POST", 
@@ -99,5 +118,8 @@ CreateTicket()
 		"Name=buyFlights.x", "Value=39", ENDITEM, 
 		"Name=buyFlights.y", "Value=12", ENDITEM, 
 		LAST);
+	
+	end_transaction(tName, status);
+	
 	return 0;
 }

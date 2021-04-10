@@ -129,7 +129,7 @@
 ]
 >
 <Report ver="2.0" tmZone="RTZ 2 (зима)">
-<General productName="Vugen" productVer="12" os="" host="5CD0226SPY"><DocLocation><![CDATA[C:\Users\User\Desktop\Scripts\MLesson8_1]]></DocLocation></General>
+<General productName="Vugen" productVer="12" os="" host="HOME-PC"><DocLocation><![CDATA[C:\Users\RejakeTi\Documents\VuGen\Scripts\MLesson8_1]]></DocLocation></General>
 <Doc rID="T1"   productName= "Vugen"  >
 <DName><![CDATA[MLesson8_1]]></DName>
 <Res><![CDATA[result1]]></Res>
@@ -138,8 +138,8 @@
 <Step rID="T3">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>userSession</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB/IC=name="userSession" value="</FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB/IC="</FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>Ord=1</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[07.04.2021 - 21:49:12]]></Time>
-<TimeTick>1617821352</TimeTick>
+<Time><![CDATA[10.04.2021 - 2:28:52]]></Time>
+<TimeTick>1618010932</TimeTick>
 <NodeArgs eType="General" icon="3" nRep="6" >
 <Disp><![CDATA[Service: Reg Save Param]]></Disp>
 </NodeArgs>
@@ -147,8 +147,8 @@
 <Step rID="T4">
 <Obj plainTxt="False" ><![CDATA[Url: webtours]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[07.04.2021 - 21:49:13]]></Time>
-<TimeTick>1617821353</TimeTick>
+<Time><![CDATA[10.04.2021 - 2:28:53]]></Time>
+<TimeTick>1618010933</TimeTick>
 <NodeArgs eType="General" icon="4" nRep="7" status="Passed" >
 <Disp><![CDATA[Url: webtours]]></Disp>
 <BtmPane vType="HTMLSNSH" >
@@ -157,151 +157,259 @@
 </NodeArgs>
 </Step>
 <Step rID="T5">
-<Obj plainTxt="False" ><![CDATA[Submit Data: login.pl]]></Obj>
+<Obj plainTxt="False" ><![CDATA[Custom Request: InfluxDB]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[07.04.2021 - 21:49:13]]></Time>
-<TimeTick>1617821353</TimeTick>
+<Time><![CDATA[10.04.2021 - 2:28:53]]></Time>
+<TimeTick>1618010933</TimeTick>
 <NodeArgs eType="General" icon="5" nRep="8" status="Passed" >
-<Disp><![CDATA[Submit Data: login.pl]]></Disp>
+<Disp><![CDATA[Custom Request: InfluxDB]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t2.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Summary sTime="07.04.2021 - 21:49:12" eTime="07.04.2021 - 21:49:13" passed="2" failed="0" warnings="0" ></Summary>
-<NodeArgs eType="StartAction" icon="2" nRep="5" status="Passed" >
-<Disp><![CDATA[vuser_init Summary]]></Disp>
-</NodeArgs>
-</Action>
-<DIter rID="T6" iterID="1" >
-<Action rID="T7">
-<AName><![CDATA[CreateTicket]]></AName>
-<Step rID="T8">
-<Obj plainTxt="False" ><![CDATA[Url: Search Flights Button]]></Obj>
+<Step rID="T6">
+<Obj plainTxt="False" ><![CDATA[Submit Data: login.pl]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[07.04.2021 - 21:49:13]]></Time>
-<TimeTick>1617821353</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="12" status="Passed" >
-<Disp><![CDATA[Url: Search Flights Button]]></Disp>
+<Time><![CDATA[10.04.2021 - 2:28:53]]></Time>
+<TimeTick>1618010933</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="9" status="Passed" >
+<Disp><![CDATA[Submit Data: login.pl]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t3.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T9">
-<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>OFlight</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=name="outboundFlight" value="</FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB="</FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>Ord=1</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[07.04.2021 - 21:49:13]]></Time>
-<TimeTick>1617821353</TimeTick>
-<NodeArgs eType="General" icon="3" nRep="13" >
-<Disp><![CDATA[Service: Reg Save Param]]></Disp>
-</NodeArgs>
-</Step>
-<Step rID="T10">
-<Obj plainTxt="False" ><![CDATA[Submit Data: reservations.pl]]></Obj>
+<Step rID="T7">
+<Obj plainTxt="False" ><![CDATA[Custom Request: InfluxDB]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[07.04.2021 - 21:49:13]]></Time>
-<TimeTick>1617821353</TimeTick>
-<NodeArgs eType="General" icon="5" nRep="14" status="Passed" >
-<Disp><![CDATA[Submit Data: reservations.pl]]></Disp>
+<Time><![CDATA[10.04.2021 - 2:28:53]]></Time>
+<TimeTick>1618010933</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="10" status="Passed" >
+<Disp><![CDATA[Custom Request: InfluxDB]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t4.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T11">
-<Obj plainTxt="False" ><![CDATA[Submit Data: reservations.pl_2]]></Obj>
+<Summary sTime="10.04.2021 - 2:28:52" eTime="10.04.2021 - 2:28:53" passed="4" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="5" status="Passed" >
+<Disp><![CDATA[vuser_init Summary]]></Disp>
+</NodeArgs>
+</Action>
+<DIter rID="T8" iterID="1" >
+<Action rID="T9">
+<AName><![CDATA[CreateTicket]]></AName>
+<Step rID="T10">
+<Obj plainTxt="False" ><![CDATA[Url: Search Flights Button]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[07.04.2021 - 21:49:13]]></Time>
-<TimeTick>1617821353</TimeTick>
-<NodeArgs eType="General" icon="5" nRep="15" status="Passed" >
-<Disp><![CDATA[Submit Data: reservations.pl_2]]></Disp>
+<Time><![CDATA[10.04.2021 - 2:28:53]]></Time>
+<TimeTick>1618010933</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="14" status="Passed" >
+<Disp><![CDATA[Url: Search Flights Button]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t5.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T12">
-<Obj plainTxt="False" ><![CDATA[Submit Data: reservations.pl_3]]></Obj>
+<Step rID="T11">
+<Obj plainTxt="False" ><![CDATA[Custom Request: InfluxDB]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[07.04.2021 - 21:49:14]]></Time>
-<TimeTick>1617821354</TimeTick>
-<NodeArgs eType="General" icon="5" nRep="16" status="Passed" >
-<Disp><![CDATA[Submit Data: reservations.pl_3]]></Disp>
+<Time><![CDATA[10.04.2021 - 2:28:53]]></Time>
+<TimeTick>1618010933</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="15" status="Passed" >
+<Disp><![CDATA[Custom Request: InfluxDB]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t6.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Summary sTime="07.04.2021 - 21:49:13" eTime="07.04.2021 - 21:49:14" passed="4" failed="0" warnings="0" ></Summary>
-<NodeArgs eType="StartAction" icon="2" nRep="11" status="Passed" >
-<Disp><![CDATA[CreateTicket Summary]]></Disp>
-</NodeArgs>
-</Action>
-<Action rID="T13">
-<AName><![CDATA[AllTicketsDel]]></AName>
-<Step rID="T14">
+<Step rID="T12">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>FlightID</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB/IC=name="flightID" value="</FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB/IC="  </FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>Ord=all</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[07.04.2021 - 21:49:23]]></Time>
-<TimeTick>1617821363</TimeTick>
-<NodeArgs eType="General" icon="3" nRep="19" >
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>OFlight</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=name="outboundFlight" value="</FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB="</FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>Ord=1</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10.04.2021 - 2:28:53]]></Time>
+<TimeTick>1618010933</TimeTick>
+<NodeArgs eType="General" icon="3" nRep="16" >
 <Disp><![CDATA[Service: Reg Save Param]]></Disp>
 </NodeArgs>
 </Step>
-<Step rID="T15">
-<Obj plainTxt="False" ><![CDATA[Url: Itinerary Button]]></Obj>
+<Step rID="T13">
+<Obj plainTxt="False" ><![CDATA[Submit Data: reservations.pl]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[07.04.2021 - 21:49:23]]></Time>
-<TimeTick>1617821363</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="20" status="Passed" >
-<Disp><![CDATA[Url: Itinerary Button]]></Disp>
+<Time><![CDATA[10.04.2021 - 2:28:53]]></Time>
+<TimeTick>1618010933</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="17" status="Passed" >
+<Disp><![CDATA[Submit Data: reservations.pl]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t7.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T16">
-<Obj plainTxt="False" ><![CDATA[Submit Data: itinerary.pl]]></Obj>
+<Step rID="T14">
+<Obj plainTxt="False" ><![CDATA[Custom Request: InfluxDB]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[07.04.2021 - 21:49:23]]></Time>
-<TimeTick>1617821363</TimeTick>
-<NodeArgs eType="General" icon="5" nRep="21" status="Passed" >
-<Disp><![CDATA[Submit Data: itinerary.pl]]></Disp>
+<Time><![CDATA[10.04.2021 - 2:28:54]]></Time>
+<TimeTick>1618010934</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="18" status="Passed" >
+<Disp><![CDATA[Custom Request: InfluxDB]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t8.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Summary sTime="07.04.2021 - 21:49:14" eTime="07.04.2021 - 21:49:23" passed="2" failed="0" warnings="0" ></Summary>
-<NodeArgs eType="StartAction" icon="2" nRep="18" status="Passed" >
-<Disp><![CDATA[AllTicketsDel Summary]]></Disp>
-</NodeArgs>
-</Action>
-<NodeArgs eType="StartIteration" icon="6" nRep="10" status="Passed" >
-<Disp><![CDATA[MLesson8_1 Iteration 1 (Row 1)]]></Disp>
-</NodeArgs>
-</DIter>
-<Action rID="T17">
-<AName><![CDATA[vuser_end]]></AName>
-<Step rID="T18">
-<Obj plainTxt="False" ><![CDATA[Url: SignOff Button]]></Obj>
+<Step rID="T15">
+<Obj plainTxt="False" ><![CDATA[Submit Data: reservations.pl_2]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[07.04.2021 - 21:49:24]]></Time>
-<TimeTick>1617821364</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="25" status="Passed" >
-<Disp><![CDATA[Url: SignOff Button]]></Disp>
+<Time><![CDATA[10.04.2021 - 2:28:54]]></Time>
+<TimeTick>1618010934</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="19" status="Passed" >
+<Disp><![CDATA[Submit Data: reservations.pl_2]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t9.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Summary sTime="07.04.2021 - 21:49:23" eTime="07.04.2021 - 21:49:24" passed="1" failed="0" warnings="0" ></Summary>
+<Step rID="T16">
+<Obj plainTxt="False" ><![CDATA[Custom Request: InfluxDB]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10.04.2021 - 2:28:54]]></Time>
+<TimeTick>1618010934</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="20" status="Passed" >
+<Disp><![CDATA[Custom Request: InfluxDB]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration1\t10.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T17">
+<Obj plainTxt="False" ><![CDATA[Submit Data: reservations.pl_3]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10.04.2021 - 2:28:54]]></Time>
+<TimeTick>1618010934</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="21" status="Passed" >
+<Disp><![CDATA[Submit Data: reservations.pl_3]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration1\t11.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T18">
+<Obj plainTxt="False" ><![CDATA[Custom Request: InfluxDB]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10.04.2021 - 2:28:54]]></Time>
+<TimeTick>1618010934</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="22" status="Passed" >
+<Disp><![CDATA[Custom Request: InfluxDB]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration1\t12.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Summary sTime="10.04.2021 - 2:28:53" eTime="10.04.2021 - 2:28:54" passed="8" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="13" status="Passed" >
+<Disp><![CDATA[CreateTicket Summary]]></Disp>
+</NodeArgs>
+</Action>
+<Action rID="T19">
+<AName><![CDATA[AllTicketsDel]]></AName>
+<Step rID="T20">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>FlightID</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB/IC=name="flightID" value="</FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB/IC="  </FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>Ord=all</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10.04.2021 - 2:28:57]]></Time>
+<TimeTick>1618010937</TimeTick>
+<NodeArgs eType="General" icon="3" nRep="25" >
+<Disp><![CDATA[Service: Reg Save Param]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T21">
+<Obj plainTxt="False" ><![CDATA[Url: Itinerary Button]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10.04.2021 - 2:28:57]]></Time>
+<TimeTick>1618010937</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="26" status="Passed" >
+<Disp><![CDATA[Url: Itinerary Button]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration1\t13.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T22">
+<Obj plainTxt="False" ><![CDATA[Custom Request: InfluxDB]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10.04.2021 - 2:28:57]]></Time>
+<TimeTick>1618010937</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="27" status="Passed" >
+<Disp><![CDATA[Custom Request: InfluxDB]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration1\t14.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T23">
+<Obj plainTxt="False" ><![CDATA[Submit Data: itinerary.pl]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10.04.2021 - 2:28:57]]></Time>
+<TimeTick>1618010937</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="28" status="Passed" >
+<Disp><![CDATA[Submit Data: itinerary.pl]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration1\t15.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T24">
+<Obj plainTxt="False" ><![CDATA[Custom Request: InfluxDB]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10.04.2021 - 2:28:57]]></Time>
+<TimeTick>1618010937</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="29" status="Passed" >
+<Disp><![CDATA[Custom Request: InfluxDB]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration1\t16.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Summary sTime="10.04.2021 - 2:28:54" eTime="10.04.2021 - 2:28:57" passed="4" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="24" status="Passed" >
+<Disp><![CDATA[AllTicketsDel Summary]]></Disp>
+</NodeArgs>
+</Action>
+<NodeArgs eType="StartIteration" icon="7" nRep="12" status="Passed" >
+<Disp><![CDATA[MLesson8_1 Iteration 1 (Row 1)]]></Disp>
+</NodeArgs>
+</DIter>
+<Action rID="T25">
+<AName><![CDATA[vuser_end]]></AName>
+<Step rID="T26">
+<Obj plainTxt="False" ><![CDATA[Url: SignOff Button]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10.04.2021 - 2:28:57]]></Time>
+<TimeTick>1618010937</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="33" status="Passed" >
+<Disp><![CDATA[Url: SignOff Button]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration1\t17.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T27">
+<Obj plainTxt="False" ><![CDATA[Custom Request: InfluxDB]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10.04.2021 - 2:28:57]]></Time>
+<TimeTick>1618010937</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="34" status="Passed" >
+<Disp><![CDATA[Custom Request: InfluxDB]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration1\t18.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Summary sTime="10.04.2021 - 2:28:57" eTime="10.04.2021 - 2:28:57" passed="2" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="32" status="Passed" >
 <Disp><![CDATA[vuser_end Summary]]></Disp>
 </NodeArgs>
 </Action>
-<Summary sTime="07.04.2021 - 21:49:12" eTime="07.04.2021 - 21:49:24" passed="9" failed="0" warnings="0" ></Summary>
+<Summary sTime="10.04.2021 - 2:28:52" eTime="10.04.2021 - 2:28:57" passed="18" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartTest" icon="1" nRep="4" status="Passed" >
 <Disp><![CDATA[Test MLesson8_1 Summary]]></Disp>
 </NodeArgs>

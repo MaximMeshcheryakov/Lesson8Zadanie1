@@ -1,5 +1,9 @@
 AllTicketsDel()
 {
+	
+	tName = "07.OpenPage_Itinerary_AllTicketDel";
+	lr_start_transaction(tName);
+	
 	web_reg_save_param_ex(
     	"ParamName=FlightID", 
     	"LB/IC=name=\"flightID\" value=\"",
@@ -19,6 +23,11 @@ AllTicketsDel()
 		"Mode=HTML", 
 		LAST);
 	
+	end_transaction(tName, status);
+	
+	tName = "08.Delete_All_Tickets";
+	lr_start_transaction(tName);
+	
 	/* Del All Ticket */
 
 	web_submit_data("itinerary.pl", 
@@ -36,6 +45,8 @@ AllTicketsDel()
 		"Name=removeAllFlights.x", "Value=43", ENDITEM, 
 		"Name=removeAllFlights.y", "Value=14", ENDITEM, 
 		LAST);
+	
+	end_transaction(tName, status);
 	
 	return 0;
 }
